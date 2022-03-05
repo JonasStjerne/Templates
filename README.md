@@ -2,9 +2,9 @@
 Templates for all kind of different things
 
 ### To do
-- [] Firebase authentication
+- [ ] Firebase authentication
 - [X] Address lookup to DAWA api
 - [] Angular form validation
 - [ ] Stripe integration
-- [] Lazyload
-- [] Pagination backend
+- [ ] Lazyload
+- [ ] Pagination backend
