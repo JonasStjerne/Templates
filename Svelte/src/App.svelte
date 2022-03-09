@@ -14,7 +14,7 @@
 	  <Link to="stripe">Stripe integration</Link>
 	</nav>
 	<div>
-	  <Route path="dawa" component="{Dawa}" />
+		<Route path="dawa" component="{Dawa}" />
 	  <Route path="stripe" component="{Stripe}" />
 	</div>
 </Router>
