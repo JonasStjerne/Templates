@@ -32,7 +32,7 @@
                               <h3>{product.title}</h3>
                               <h5>${product.price}</h5>
                         </div>
-                        <form action="/create-checkout-session" method="POST">
+                        <form action="http://localhost:4242/create-checkout-session" method="POST">
                               <button type="submit" id="checkout-button">Checkout</button>
                         </form>
                   </div>

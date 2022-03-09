@@ -1,8 +1,9 @@
 import App from './App.svelte';
 
-var app = new App({
-	target: document.getElementById("app"),
-  	hydrate: true
+const app = new App({
+	target: document.body,
+	props: {
+	}
 });
 
 export default app;

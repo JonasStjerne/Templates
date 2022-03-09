@@ -2242,8 +2242,8 @@ var app = (function () {
     			add_location(div0, file$2, 30, 24, 972);
     			attr_dev(button, "type", "submit");
     			attr_dev(button, "id", "checkout-button");
-    			add_location(button, file$2, 35, 30, 1249);
-    			attr_dev(form, "action", "/create-checkout-session");
+    			add_location(button, file$2, 35, 30, 1270);
+    			attr_dev(form, "action", "http://localhost:4242/create-checkout-session");
     			attr_dev(form, "method", "POST");
     			add_location(form, file$2, 34, 24, 1164);
     			attr_dev(div1, "class", "d-flex justify-content-between align-items-center");
@@ -6485,9 +6485,10 @@ var app = (function () {
     	}
     }
 
-    var app = new App({
-    	target: document.getElementById("app"),
-      	hydrate: true
+    const app = new App({
+    	target: document.body,
+    	props: {
+    	}
     });
 
     return app;
