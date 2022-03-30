@@ -5,6 +5,6 @@ Templates for all kind of different things
 - [ ] Firebase authentication
 - [X] Address lookup to DAWA api
 - [ ] Angular form validation
-- [ ] Stripe integration
+- [X] Stripe integration
 - [ ] Lazyload
 - [ ] Pagination backend
